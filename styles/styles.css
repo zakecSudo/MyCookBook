@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(209, 235, 232);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Glava */
+
+.header {
+    background-color: rgb(64, 97, 94);
+    overflow: hidden;
+}
+
+.header_naslov {
+    margin-left: 20%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(64, 97, 94);
+}
+
+.header_podnaslov {
+    font-size: 15px;
+    margin-left: 20%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(64, 97, 94);
+}
+
+.search-container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(126, 138, 137);
+}
+
+.search-container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+#search_bar {
+    float: right;
+    font-size: 17px;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    border: none;
+}
+
+#submit_button {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar_links {
+    float: left;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(144, 158, 157);
+    color: white;
+}
+
+.navbar_links:hover {
+    background-color: rgb(118, 126, 125);
+}
+
+#add_recipe:hover {
+    background-color: rgb(169, 189, 187);
+}
+
+#content {
+    padding: 15px;
+    width: 50%;
+}
+
+p.no_recipe {
+    margin: 20px;
+    font-size: 20px;
+    color: slategrey;
+}
+
+.recipe {
+    margin: 20px;
+    padding: 14px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: silver;
+    border-radius: 3px;
+}
+
+p.recipe_title {
+    margin-top: 4px;
+    font-size: 17px;
+    color: slategrey;
+}
+
+p.recipe_description {
+    font-size: 13px;
+    color: slategrey;
+}
+
+.remove_recipe {
+    border: none;
+    padding: 8px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.footer {
+    margin-top: 30px;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    vertical-align: bottom;
+    text-align: center;
+    background-color: rgb(64, 97, 94);
+    color: white;
+}
+
+p.footer_text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(64, 97, 94);
+}
+
+#recipe_name {
+    margin: 20px 0px 20px 0px;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+#recipe_description {
+    margin: 0px 0px 20px 0px;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+#add_recipe_button {
+    border: none;
+    padding: 8px;
+    font-size: 17px;
+    background-color: rgb(64, 97, 94);
+    color: white;
+    border-radius: 4px;
+}
+
+.sources_header {
+    margin: 40px 20px 20px 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: slategrey;
+}
+
+.sources {
+    margin: 20px 20px 20px 40px;
+    font-size: 20px;
+    color: slategrey;
+}
+
+@media only screen and (min-width: 500px) {
+
+}
