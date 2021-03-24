@@ -21,7 +21,7 @@ a:link {
 }
 
 .header_naslov {
-    margin-left: 20%;
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 10px;
     font-size: 50px;
@@ -33,7 +33,7 @@ a:link {
 
 .header_podnaslov {
     font-size: 15px;
-    margin-left: 20%;
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -55,13 +55,14 @@ a:link {
 }
 
 .container {
-    margin-left: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #search_bar {
     float: right;
     width: 80%;
-    font-size: 19px;
+    font-size: 22px;
     padding: 6px;
     border: none;
 }
@@ -70,7 +71,7 @@ a:link {
     float: right;
     width: 20%;
     padding: 6px;
-    font-size: 19px;
+    font-size: 22px;
     border: none;
 }
 
@@ -96,6 +97,7 @@ a:link {
 #content {
     padding: 15px;
     width: 100%;
+    margin-right: 15px;
 }
 
 p.no_recipe {
@@ -156,13 +158,15 @@ p.footer_text {
     padding: 6px;
     border: none;
     font-size: 17px;
+    width: 60%;
 }
 
 #recipe_description {
-    margin: 0px 0px 20px 0px;
-    padding: 6px;
+    margin-bottom: 20px;
     border: none;
     font-size: 17px;
+    min-width: 100px;
+    width: 100%;
 }
 
 #add_recipe_button {
@@ -199,7 +203,7 @@ p.footer_text {
     }
     #content {
         padding: 15px;
-        width: 50%;
+        width: 75%;
     }
 
     #submit_button {
@@ -222,5 +226,44 @@ p.footer_text {
         margin-bottom: 10px;
         margin-right: 16px;
         border: none;
+    }
+
+    .container {
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    #recipe_description {
+        border: none;
+        font-size: 17px;
+        min-width: 100px;
+        width: 75%;
+    }
+
+    #recipe_name {
+        width: auto;
+    }
+
+    .header_naslov {
+        text-align: inherit;
+        margin-left: 20%;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(64, 97, 94);
+    }
+    
+    .header_podnaslov {
+        text-align: inherit;
+        font-size: 15px;
+        margin-left: 20%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(64, 97, 94);
     }
 }
