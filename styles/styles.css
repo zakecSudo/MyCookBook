@@ -60,26 +60,24 @@ a:link {
 
 #search_bar {
     float: right;
-    font-size: 17px;
+    width: 80%;
+    font-size: 19px;
     padding: 6px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 16px;
     border: none;
 }
 
 #submit_button {
     float: right;
+    width: 20%;
     padding: 6px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 16px;
-    font-size: 17px;
+    font-size: 19px;
     border: none;
 }
 
 .navbar_links {
     float: left;
+    text-align: center;
+    width: 100%;
     padding: 16px;
     font-size: 17px;
     border: none;
@@ -97,7 +95,7 @@ a:link {
 
 #content {
     padding: 15px;
-    width: 50%;
+    width: 100%;
 }
 
 p.no_recipe {
@@ -189,6 +187,40 @@ p.footer_text {
     color: slategrey;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 610px) {
+    .navbar_links {
+        width: auto;
+        float: left;
+        padding: 16px;
+        font-size: 17px;
+        border: none;
+        background-color: rgb(144, 158, 157);
+        color: white;
+    }
+    #content {
+        padding: 15px;
+        width: 50%;
+    }
 
+    #submit_button {
+        float: right;
+        width: auto;
+        padding: 6px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 16px;
+        font-size: 17px;
+        border: none;
+    }
+
+    #search_bar {
+        float: right;
+        width: auto;
+        font-size: 17px;
+        padding: 6px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 16px;
+        border: none;
+    }
 }
